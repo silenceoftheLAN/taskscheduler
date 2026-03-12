@@ -1,0 +1,40 @@
+TaskScheduler
+
+A lightweight multi-threaded task scheduling system for Linux designed for efficient background job execution and concurrency experimentation.
+
+This project focuses on understanding how operating systems handle task distribution, worker threads, and asynchronous workloads. It is intended as a learning-focused systems programming project that demonstrates how schedulers coordinate tasks across multiple threads.
+
+TaskScheduler can be used to:
+	•	distribute workloads across worker threads
+	•	process background jobs asynchronously
+	•	experiment with Linux concurrency patterns
+	•	learn how scheduling systems work internally
+
+⸻
+
+Features
+	•	Multi-threaded worker pool
+	•	FIFO task queue
+	•	Asynchronous job execution
+	•	Lightweight and minimal dependencies
+	•	Designed for Linux environments
+	•	Educational implementation of scheduling concepts
+
+⸻
+
+Why This Project Exists
+
+Modern systems rely heavily on task schedulers to efficiently run workloads in the background. Examples include:
+	•	operating systems
+	•	build systems
+	•	job runners
+	•	web servers
+	•	distributed computing platforms
+
+This project demonstrates a simplified version of how those schedulers work internally.
+
+The goal is to explore:
+	•	thread management
+	•	task queues
+	•	synchronization
+	•	concurrency safety
